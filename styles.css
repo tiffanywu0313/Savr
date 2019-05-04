@@ -26,6 +26,12 @@ h5 {
   text-align: left;
 }
 
+.button {
+  width: 100px;
+  display: flex;
+
+}
+
 .button-container {
   width: 300px;
   display: flex;
@@ -54,9 +60,16 @@ h5 {
   text-align: center;
   display: inline-block;
   font-size: 24px;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 50%;
   align-self: flex-end;
   margin: 10px;
   text-decoration: none;
+}
+
+#choice-button{
+  background-color: #166996;
+  padding: 90px;
+  color: white;
+  border-radius: 100%;
 }
