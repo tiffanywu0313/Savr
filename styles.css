@@ -5,6 +5,9 @@
   border-radius: 25px;
   border-style: solid;
   border-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
@@ -16,6 +19,7 @@ h1 {
   width: 200px;
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
 }
 
 #main-button{
@@ -26,4 +30,20 @@ h1 {
   border: none;
   font-size: 16px;
   color: #e0e3e5;
+  cursor: pointer;
+}
+
+#dashboard-button{
+  background-color: white;
+  border-style: solid;
+  border-color: #166996;
+  color: #166996;
+  padding: 20px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer; 
+  border-radius: 50%;
+  align-self: flex-end;
+  margin: 10px;
 }
