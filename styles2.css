@@ -1,0 +1,38 @@
+#iphone-outline{
+  width:400px;
+  height:700px;
+  background-image: url('./leaf-bkg.png');
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font: Lato;
+  color: #166996;
+  text-align: center;
+}
+
+.im-button {
+  width:20px;
+  display: flex;
+  margin-left: 150px;
+  margin-bottom: 500px;
+  align-items: center;
+}
+
+#walk-button{
+  background-color: #166996;
+  padding: 20px;
+  color: white;
+  border-radius: 100%;
+}
+
+#bike-button{
+  background-color: #166996;
+  padding: 20px;
+  color: white;
+  border-radius: 100%;
+}

@@ -26,15 +26,6 @@ h5 {
   text-align: left;
 }
 
-.im-button {
-  width:20px;
-  display: flex;
-  margin-left: 150px;
-  margin-bottom: 500px;
-  align-items: center;
-
-}
-
 .button-container {
   width: 300px;
   display: flex;
@@ -68,18 +59,4 @@ h5 {
   align-self: flex-end;
   margin: 10px;
   text-decoration: none;
-}
-
-#walk-button{
-  background-color: #166996;
-  padding: 20px;
-  color: white;
-  border-radius: 100%;
-}
-
-#bike-button{
-  background-color: #166996;
-  padding: 20px;
-  color: white;
-  border-radius: 100%;
 }
