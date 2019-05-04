@@ -54,7 +54,7 @@ h5 {
   border-style: solid hidden solid hidden;
 }
 
-#dashboard-button{
+#dashboard-button {
   background-color: white;
   border-style: solid;
   border-color: #166996;
@@ -67,6 +67,7 @@ h5 {
   border-radius: 50%;
   align-self: flex-end;
   margin: 10px;
+  text-decoration: none;
 }
 
 #walk-button{
