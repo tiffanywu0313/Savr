@@ -18,21 +18,35 @@ h1 {
 .im-button {
   width:20px;
   display: flex;
-  margin-left: 150px;
+  margin-left: 80px;
   margin-bottom: 500px;
   align-items: center;
 }
 
+.close {
+  width:20px;
+  display: flex;
+  margin-left: 350px;
+  margin-top: 15px;
+}
+
 #walk-button{
   background-color: #166996;
-  padding: 20px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: white;
   border-radius: 100%;
+  margin: 20px;
 }
 
 #bike-button{
   background-color: #166996;
-  padding: 20px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: white;
   border-radius: 100%;
 }
