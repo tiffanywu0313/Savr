@@ -45,6 +45,8 @@ h4 {
   padding: 10px;
   color: white;
   font-size: 16px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .button-container {
@@ -54,7 +56,12 @@ h4 {
   margin-left: 50px;
 }
 
-.input-location {
+.start-location {
+  margin: 10px;
+  padding: 10px;
+}
+
+.end-location {
   margin: 10px;
   padding: 10px;
 }

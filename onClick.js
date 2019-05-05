@@ -1,4 +1,4 @@
-document.getElementById('dashboard-button').addEventListener('click', function () {
+document.getElementById('origin1').addEventListener('click', function () {
   window.location.href  = './trip.html'
 });
 
