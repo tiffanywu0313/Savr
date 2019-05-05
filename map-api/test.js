@@ -1,19 +1,22 @@
 function initMap() {
   var bounds = new google.maps.LatLngBounds;
   var markersArray = [];
+  var origin1 = '510 W Georgia St, Vancouver';
 
-  var origin1 = {lat: 55.93, lng: -3.118};
-  // var origin1 = document.getElementById('origin1').value;
+  var destinationA = '999 Canada Pl, Vancouver';
+  
+ // to display on html right panel
+  
+document.getElementById("insert").innerHTML = origin1;
+document.getElementById("dest").innerHTML = destinationA;
 
-
-  var destinationA = {lat: 50.087, lng: 14.421};
 
   var destinationIcon = 'https://chart.googleapis.com/chart?' +
       'chst=d_map_pin_letter&chld=D|FF0000|000000';
   var originIcon = 'https://chart.googleapis.com/chart?' +
       'chst=d_map_pin_letter&chld=O|FFFF00|000000';
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 55.53, lng: 9.4},
+    center: {lat: 	49.24, lng: -123.11},
     zoom: 10
   });
   var geocoder = new google.maps.Geocoder;
@@ -74,3 +77,4 @@ function deleteMarkers(markersArray) {
   }
   markersArray = [];
 }
+
