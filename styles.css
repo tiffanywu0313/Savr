@@ -26,6 +26,11 @@ h5 {
   text-align: left;
 }
 
+h4 {
+  color: #166996;
+  text-align: left;
+}
+
 .button {
   width: 100px;
   display: flex;
@@ -72,4 +77,11 @@ h5 {
   padding: 90px;
   color: white;
   border-radius: 100%;
+}
+
+.input-location {
+  margin: 10px;
+  padding: 10px;
+  color: #e0e3e5;
+  placeholder: 'Add location...';
 }
