@@ -4,11 +4,8 @@ function initMap() {
   var origin1 = '510 W Georgia St, Vancouver';
   //var origin1 = {lat: 49.2888248, lng: -123.1133096};
   var destinationA = '999 Canada Pl, Vancouver';
-  
 document.getElementById("insert").innerHTML = origin1;
 document.getElementById("dest").innerHTML = destinationA;
-
-
   var destinationIcon = 'https://chart.googleapis.com/chart?' +
       'chst=d_map_pin_letter&chld=D|FF0000|000000';
   var originIcon = 'https://chart.googleapis.com/chart?' +
