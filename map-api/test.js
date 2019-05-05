@@ -3,6 +3,7 @@ function initMap() {
   var markersArray = [];
 
   var origin1 = {lat: 55.93, lng: -3.118};
+  // var origin1 = document.getElementById('origin1').value;
 
 
   var destinationA = {lat: 50.087, lng: 14.421};
